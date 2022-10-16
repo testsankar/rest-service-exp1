@@ -59,7 +59,7 @@
               <publisher>
                 <contextUrl>https://sankar2022.jfrog.io/artifactory</contextUrl>
                 <username>github-user-ci</username>
-                <password>${env.ARTIFACTORY_TOKEN}</password>
+                <password>${env.ARTIFACTORY_TOKEN_REF}</password>
                 <repoKey>rest-exp1-release-local</repoKey>
                 <snapshotRepoKey>rest-exp1-snapshot-local</snapshotRepoKey>
               </publisher>
