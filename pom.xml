@@ -59,7 +59,7 @@
               <publisher>
                 <contextUrl>https://sankar2022.jfrog.io/artifactory</contextUrl>
                 <username>github-user-ci</username>
-                <password>eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJrUW00YzlzWU52MVVQRWRwWmtXVllZNVpwdUpyaFA0bGU2N1RIanhrdDdZIn0.eyJleHQiOiJ7XCJyZXZvY2FibGVcIjpcInRydWVcIn0iLCJzdWIiOiJqZmFjQDAxZ2VzYmpwc2hoMXBxMGNhcnBybnQxM2N6XC91c2Vyc1wvZ2l0aHViLXVzZXItY2kiLCJzY3AiOiJhcHBsaWVkLXBlcm1pc3Npb25zXC91c2VyIiwiYXVkIjoiKkAqIiwiaXNzIjoiamZmZUAwMDAiLCJpYXQiOjE2NjU5MjIyNzEsImp0aSI6IjY3MmRlNmQyLWFkMjItNDNlNy04ODAyLTQwZDljYjIzMWY5MCJ9.BCGUlUueY6lb3kXBr1YKPQ0gH7M-ziL8_gJy2nWC7Elsdl8LjnR9milYEikZtN1GBJTbpwaCYz9zzMO2LBIfGXYeU3Ffy3WKTMt9c2PEHAFJ385nWDEd1sn0zDHLRKpL4YfllVc6LEZy2yltIwZebm_Ki5s7kU_XUaIbGgiinj2FTFU_4hO8Et27xR2MZQpBh4V9ovyZOT-YBLE6puZCM2Dsc_y_sCAa1cTRHZCSa-AkoI5ZbUL6fyJCzME_gKI5F9mocM1AQOl3rxDCtjZLwqfMLF7hmsyawu_U4R1pt0z9ntCIy6ICDaP1Bw8qiSFn0OXbrhBsahYaHXdtnMJxRg </password>
+                <password>${env.ARTIFACTORY_TOKEN_REF}</password>
                 <repoKey>rest-exp1-release-local</repoKey>
                 <snapshotRepoKey>rest-exp1-snapshot-local</snapshotRepoKey>
               </publisher>
